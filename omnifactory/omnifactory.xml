@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="omnifactory" abstract="true" name="Snow&apos;s Omnifactory" newsUrl="about:blank" version="1.12.2" generateList="false" autoConnect="false" revision="0.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="https://dl.dropbox.com/s/vla7evnyodgboc8/omnifactory_clientpack.xml">clientpack</Import>
+		<Module name="Overrides" id="overrides" depends="" side="BOTH">
+			<URL priority="0"></URL>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType inRoot="true">Extract</ModType>
+		</Module>
+		<Module name="Ambidextrous" id="ambidextrous" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ambidextrous/files/2433722/download</URL>
+			<Size>16919</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7aa88777e93ad4e1303776a8a4f2fd52</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>a mod about using two keybinds for each hand.</description>
+				<version>1.2</version>
+				<url>http://minecraft.curseforge.com/projects/ambidextrous</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
