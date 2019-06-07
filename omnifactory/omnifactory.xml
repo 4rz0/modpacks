@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="omnifactory" abstract="true" name="Snow&apos;s Omnifactory" newsUrl="about:blank" version="1.12.2" generateList="false" autoConnect="false" revision="0.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
-		<Import url="https://dl.dropbox.com/s/vla7evnyodgboc8/omnifactory_clientpack.xml">clientpack</Import>
+		<Import url="https://github.com/4rz0/modpacks/blob/master/omnifactory/omnifactory_clientpack.xml">clientpack</Import>
 		<Module name="Overrides" id="overrides" depends="" side="BOTH">
 			<URL priority="0"></URL>
 			<Size>100000</Size>
