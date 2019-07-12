@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="import" abstract="true" name="Omnifactory 1.1.0 Bountiful Update" version="1.12.2" generateList="false" autoConnect="false" revision="1.1.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2838">forge</Import>
+		<Module name="jei" id="jei" depends="" side="BOTH">
+			<Curse project="jei" file="2724420" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6885a6000720917fccdce83aa48e9f5e</MD5>
+		</Module>
+		<Module name="journeymap" id="journeymap" depends="" side="BOTH">
+			<Curse project="journeymap" file="2714302" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c8aa57883c9a2ccc588920b482c9570c</MD5>
+		</Module>
+	</Server>
+</ServerPack>
