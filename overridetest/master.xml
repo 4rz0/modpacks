@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="omnifactory" abstract="false" name="Snow&apos;s Omnifactory" newsUrl="about:blank" version="1.12.2" generateList="false" autoConnect="false" revision="1.10.0-1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="https://github.com/4rz0/modpacks/raw/master/overridetest/imported.xml">clientpack</Import>
+		<Module id="jei" side="CLIENT">
+			<Required isDefault="true">false</Required>
+		</Module>
+		<Module id="journeymap" side="CLIENT">
+			<Required isDefault="true">false</Required>
+		</Module>
+	</Server>
+</ServerPack>
