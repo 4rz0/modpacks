@@ -2,11 +2,11 @@
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="override" abstract="false" name="overridetest" newsUrl="about:blank" version="1.12.2" generateList="false" autoConnect="false" revision="0.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="https://github.com/4rz0/modpacks/raw/master/overridetest/imported.xml">clientpack</Import>
-		<Module id="jei" side="CLIENT">
+		<Module name="JustEnoughItems" id="jei" side="CLIENT">
 			<ModType>Regular</ModType>
 			<Required isDefault="true">false</Required>
 		</Module>
-		<Module id="journeymap" side="CLIENT">
+		<Module name="Journeymap" id="journeymap" side="CLIENT">
 			<ModType>Regular</ModType>
 			<Required isDefault="true">false</Required>
 		</Module>
